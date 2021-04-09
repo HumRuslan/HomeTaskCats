@@ -1,0 +1,20 @@
+{
+    "name": "ruslan/individual-task",
+    "authors": [
+        {
+            "name": "Ruslan",
+            "email": "gumruslan1975@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "controllers/",
+            "core\\": "core/",
+            "services\\": "services/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "7.0"
+    }
+}
